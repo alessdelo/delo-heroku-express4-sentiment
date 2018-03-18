@@ -2,18 +2,22 @@
 <html lang="en">
 
 <head>
-  <% include ../partials/header.ejs %>
+   <%- include(header) %>
 </head>
 
 <body>
-  <% include ../partials/nav.ejs %>
-  
+
+  <%- include(nav) %>
+
+
     <h1>  <%= title %></h1>
     
-    <p>bla... bla... bla...</p>
+    <p><%= content %></p>
+    
+    <%- include('../partials/' +  testfile) %>
 
    
-  <% include ../partials/footer.ejs %>
+   <%- include(footer) %>
   
   </body>
 </html>
