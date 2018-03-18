@@ -1,7 +1,4 @@
 {
   "name": "Delo Sentiment Anlaysis API Test",
-  "description": "Sentiment analysis API made with Node and Express inspired by a Coding Train Tutorial",
-  "repository": "https://github.com/heroku/node-js-getting-started",
-  "keywords": ["node", "express", "heroku"],
-  "image": "heroku/nodejs"
+  "description": "Sentiment analysis API made with Node and Express inspired by a Coding Train Tutorial"
 }
